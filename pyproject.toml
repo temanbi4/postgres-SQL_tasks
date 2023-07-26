@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "postgres-sql-tasks"
+version = "0.1.0"
+description = ""
+authors = ["Artem Ershov <colombadoro@ya.ru>"]
+readme = "README.md"
+packages = [{include = "postgres_sql_tasks"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg2 = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
